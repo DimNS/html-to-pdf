@@ -1,0 +1,22 @@
+{
+  "name": "dimns/html-to-pdf",
+  "description": "Facade to convert html into pdf, uses the library mpdf",
+  "type": "library",
+  "license": "GPL-2.0-only",
+  "authors": [
+    {
+      "name": "DimNS",
+      "email": "dimns@dimns.ru",
+      "homepage": "http://bestion.ru",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DimNS\\HtmlToPdf\\": "src/"
+    }
+  },
+  "require": {
+    "mpdf/mpdf": "~8.0"
+  }
+}
